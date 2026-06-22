@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" width="840" height="440" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" role="img" aria-label="Sthiven R. — AI Systems Control panel">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e14"/>
+      <stop offset="1" stop-color="#0d1320"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a7f37"/>
+      <stop offset="1" stop-color="#2ea043"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9a6700"/>
+      <stop offset="1" stop-color="#d29922"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="8" y="8" width="824" height="424" rx="16"/></clipPath>
+  </defs>
+
+  <!-- frame -->
+  <rect x="8" y="8" width="824" height="424" rx="16" fill="url(#bg)" stroke="#22d3ee" stroke-opacity="0.22"/>
+
+  <!-- scanning sweep -->
+  <g clip-path="url(#frame)">
+    <rect x="0" y="8" width="3" height="424" fill="#22d3ee" opacity="0.10">
+      <animateTransform attributeName="transform" type="translate" from="8 0" to="824 0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#22d3ee" stroke-width="2" stroke-opacity="0.55" fill="none">
+    <path d="M24 40 V24 H40"/>
+    <path d="M800 24 H816 V40"/>
+    <path d="M24 400 V416 H40"/>
+    <path d="M816 400 V416 H800"/>
+  </g>
+
+  <!-- header -->
+  <text x="40" y="74" font-size="38" font-weight="700" fill="#e6edf3" letter-spacing="1">STHIVEN R.</text>
+  <text x="42" y="99" font-size="12.5" fill="#22d3ee" letter-spacing="3">AI ENGINEER · SYSTEMS BUILDER · FOUNDER</text>
+
+  <!-- online badge -->
+  <g>
+    <circle cx="690" cy="42" r="5" fill="#2ea043">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="704" y="46" font-size="11" letter-spacing="2" fill="#7d8590">SYSTEMS ONLINE</text>
+  </g>
+
+  <line x1="40" y1="118" x2="800" y2="118" stroke="#1f2937"/>
+  <text x="40" y="140" font-size="11" letter-spacing="3" fill="#576070">PRODUCTION SYSTEMS</text>
+
+  <!-- system rows -->
+  <!-- row 1: DAAEONYX -->
+  <g transform="translate(0,168)">
+    <circle cx="46" cy="0" r="5" fill="#2ea043"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="0s" repeatCount="indefinite"/></circle>
+    <text x="66" y="4" font-size="15" fill="#e6edf3">DAAEONYX AI</text>
+    <text x="66" y="20" font-size="10.5" fill="#576070">inference platform · chat · audio · image</text>
+    <rect x="430" y="-7" width="250" height="11" rx="5.5" fill="#161b22"/>
+    <rect x="430" y="-7" width="0" height="11" rx="5.5" fill="url(#green)"><animate attributeName="width" from="0" to="215" dur="1.3s" begin="0.2s" fill="freeze"/></rect>
+    <text x="694" y="4" font-size="12" fill="#2ea043">ONLINE</text>
+  </g>
+  <!-- row 2: FRONTIER -->
+  <g transform="translate(0,212)">
+    <circle cx="46" cy="0" r="5" fill="#2ea043"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <text x="66" y="4" font-size="15" fill="#e6edf3">FRONTIER BENCHMARKS</text>
+    <text x="66" y="20" font-size="10.5" fill="#576070">public LLM benchmark atlas · 120+ models</text>
+    <rect x="430" y="-7" width="250" height="11" rx="5.5" fill="#161b22"/>
+    <rect x="430" y="-7" width="0" height="11" rx="5.5" fill="url(#green)"><animate attributeName="width" from="0" to="250" dur="1.3s" begin="0.35s" fill="freeze"/></rect>
+    <text x="694" y="4" font-size="12" fill="#2ea043">LIVE</text>
+  </g>
+  <!-- row 3: AEONYX -->
+  <g transform="translate(0,256)">
+    <circle cx="46" cy="0" r="5" fill="#d29922"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <text x="66" y="4" font-size="15" fill="#e6edf3">AEONYX</text>
+    <text x="66" y="20" font-size="10.5" fill="#576070">Rust toolchain · CLI · IDE agent · mobile</text>
+    <rect x="430" y="-7" width="250" height="11" rx="5.5" fill="#161b22"/>
+    <rect x="430" y="-7" width="0" height="11" rx="5.5" fill="url(#amber)"><animate attributeName="width" from="0" to="140" dur="1.3s" begin="0.5s" fill="freeze"/></rect>
+    <text x="694" y="4" font-size="12" fill="#d29922">BUILDING</text>
+  </g>
+  <!-- row 4: JAVRYX -->
+  <g transform="translate(0,300)">
+    <circle cx="46" cy="0" r="5" fill="#d29922"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="1.35s" repeatCount="indefinite"/></circle>
+    <text x="66" y="4" font-size="15" fill="#e6edf3">JAVRYX</text>
+    <text x="66" y="20" font-size="10.5" fill="#576070">autonomous software execution system</text>
+    <rect x="430" y="-7" width="250" height="11" rx="5.5" fill="#161b22"/>
+    <rect x="430" y="-7" width="0" height="11" rx="5.5" fill="url(#amber)"><animate attributeName="width" from="0" to="78" dur="1.3s" begin="0.65s" fill="freeze"/></rect>
+    <text x="694" y="4" font-size="12" fill="#d29922">DEV</text>
+  </g>
+
+  <!-- EKG pulse line -->
+  <path d="M40 350 H250 l10 -22 l8 40 l10 -18 H470 l10 -22 l8 40 l10 -18 H800" fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="9 7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="0.6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- footer stack -->
+  <text x="40" y="396" font-size="12" letter-spacing="1.5" fill="#7d8590">STACK <tspan fill="#22d3ee">▸</tspan> RUST · PYTHON · TYPESCRIPT · GO · vLLM · CLOUDFLARE</text>
+  <rect x="724" y="386" width="8" height="14" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
