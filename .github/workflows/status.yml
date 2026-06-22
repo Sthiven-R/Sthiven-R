@@ -1,0 +1,26 @@
+name: Live Status
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Probe services and build status SVG
+        run: python3 .github/scripts/gen_status.py
+
+      - name: Publish to status branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: status
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
