@@ -86,6 +86,7 @@ Passing by? Leave a one-line note — a bot adds it here and closes the issue au
 <a href="https://github.com/Sthiven-R/Sthiven-R/issues/new?template=guestbook.yml"><img src="https://img.shields.io/badge/✍️_Sign_my_guestbook-0891b2?style=for-the-badge&labelColor=0a0e14" alt="Sign the guestbook"></a>
 
 <!-- GUESTBOOK:START -->
+- **[@Sthiven-R](https://github.com/Sthiven-R)** — First! Testing the guestbook flow from Caracas.
 <!-- GUESTBOOK:END -->
 
 ---
