@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Sthiven%20R.&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Systems%20Builder%20%7C%20Founder&descAlignY=58&descSize=20" width="100%" alt="Sthiven R."/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,100:22d3ee&height=200&section=header&text=Sthiven%20R.&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Systems%20Builder%20%7C%20Founder&descAlignY=58&descSize=20" width="100%" alt="Sthiven R."/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Solo+founder+shipping+production+AI+systems;Inference+platforms.+Autonomous+agents.+Dev+tools.;I+build+the+future+of+software.)](https://github.com/Sthiven-R)
 
@@ -83,9 +83,6 @@ coding agents, and the developer tooling around them. **Real products in product
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Sthiven-R&show_icons=true&include_all_commits=true&count_private=true&hide=stars&theme=tokyonight&hide_border=true&title_color=22d3ee&icon_color=22d3ee" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=Sthiven-R&layout=compact&langs_count=8&count_private=true&hide=markdown,html,jupyter+notebook&theme=tokyonight&hide_border=true&title_color=22d3ee" alt="top langs"/>
-
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sthiven-R&theme=tokyo-night&hide_border=true&color=22d3ee&line=22d3ee&point=ffffff&area=true" alt="activity graph"/>
 
 ![snake](https://raw.githubusercontent.com/Sthiven-R/Sthiven-R/output/github-contribution-grid-snake-dark.svg)
@@ -106,4 +103,4 @@ coding agents, and the developer tooling around them. **Real products in product
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,100:22d3ee&height=120&section=footer&animation=twinkling" width="100%"/>
