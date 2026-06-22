@@ -1,0 +1,16 @@
+name: ✍️ Sign the guestbook
+description: Leave a short note — it appears on my profile.
+title: "[guestbook] signature"
+labels: ["guestbook"]
+body:
+  - type: markdown
+    attributes:
+      value: "Drop a one-line note. A bot adds it to my profile and closes this issue automatically."
+  - type: textarea
+    id: message
+    attributes:
+      label: Your message
+      description: One short line. Plain text only — links and markup are stripped.
+      placeholder: "Hi from <your name / city / company>!"
+    validations:
+      required: true
