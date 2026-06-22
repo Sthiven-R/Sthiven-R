@@ -11,6 +11,10 @@
 [![Daaeonyx AI](https://img.shields.io/badge/▸_daaeonyxai.com-0891b2?style=for-the-badge&labelColor=0a0e14)](https://daaeonyxai.com)
 [![Visitors](https://komarev.com/ghpvc/?username=Sthiven-R&style=for-the-badge&color=0891b2&labelColor=0a0e14&label=VISITORS)](https://github.com/Sthiven-R)
 
+<br>
+
+<img src="https://raw.githubusercontent.com/Sthiven-R/Sthiven-R/status/status.svg" alt="Live status of Sthiven R. services" width="100%">
+
 </div>
 
 ---
